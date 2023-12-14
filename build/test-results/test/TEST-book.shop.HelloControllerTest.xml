@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="book.shop.HelloControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-14T12:13:19" hostname="0822LTPB0076167.local" time="0.005">
+  <properties/>
+  <testcase name="shouldReturnHelloOKResponse()" classname="book.shop.HelloControllerTest" time="0.005"/>
+  <system-out><![CDATA[2023-12-14T17:43:19.732+05:30  INFO 57079 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [book.shop.HelloControllerTest]: HelloControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-14T17:43:19.737+05:30  INFO 57079 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration book.shop.BookShopApplication for test class book.shop.HelloControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-12-14T17:43:19.752+05:30  INFO 57079 --- [    Test worker] book.shop.HelloControllerTest            : Starting HelloControllerTest using Java 17.0.9 with PID 57079 (started by hitesh.jaware in /Users/hitesh.jaware/book-shop-demo)
+2023-12-14T17:43:19.753+05:30  INFO 57079 --- [    Test worker] book.shop.HelloControllerTest            : No active profile set, falling back to 1 default profile: "default"
+2023-12-14T17:43:19.860+05:30  INFO 57079 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-12-14T17:43:19.860+05:30  INFO 57079 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-12-14T17:43:19.861+05:30  INFO 57079 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-12-14T17:43:19.864+05:30  INFO 57079 --- [    Test worker] book.shop.HelloControllerTest            : Started HelloControllerTest in 0.125 seconds (process running for 2.051)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

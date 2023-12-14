@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="book.shop.BookControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-14T12:13:19" hostname="0822LTPB0076167.local" time="0.1">
+  <properties/>
+  <testcase name="shouldGetNoBooksBackIfTheyAreNotAvailable()" classname="book.shop.BookControllerTest" time="0.092"/>
+  <testcase name="shouldGetBookBackIfAvailable()" classname="book.shop.BookControllerTest" time="0.006"/>
+  <system-out><![CDATA[17:43:18.266 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [book.shop.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:43:18.346 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration book.shop.BookShopApplication for test class book.shop.BookControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-12-14T17:43:18.522+05:30  INFO 57079 --- [    Test worker] book.shop.BookControllerTest             : Starting BookControllerTest using Java 17.0.9 with PID 57079 (started by hitesh.jaware in /Users/hitesh.jaware/book-shop-demo)
+2023-12-14T17:43:18.523+05:30  INFO 57079 --- [    Test worker] book.shop.BookControllerTest             : No active profile set, falling back to 1 default profile: "default"
+2023-12-14T17:43:19.514+05:30  INFO 57079 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-12-14T17:43:19.514+05:30  INFO 57079 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-12-14T17:43:19.516+05:30  INFO 57079 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-12-14T17:43:19.541+05:30  INFO 57079 --- [    Test worker] book.shop.BookControllerTest             : Started BookControllerTest in 1.157 seconds (process running for 1.728)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

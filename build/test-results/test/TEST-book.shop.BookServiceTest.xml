@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="book.shop.BookServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-14T09:45:38" hostname="0822LTPB0076167.local" time="2.169">
+<testsuite name="book.shop.BookServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-14T12:13:19" hostname="0822LTPB0076167.local" time="0.081">
   <properties/>
-  <testcase name="shouldGetDataFromDatabase()" classname="book.shop.BookServiceTest" time="2.169"/>
+  <testcase name="shouldGetDataFromDatabase()" classname="book.shop.BookServiceTest" time="0.081"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

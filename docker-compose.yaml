@@ -5,3 +5,19 @@ services:
       book-shop-demo
     ports:
       - "9090:9090"
+    depends_on: [postgres]
+
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: bookuser
+      POSTGRES_PASSWORD: fizzingwhizbee
+      POSTGRES_DB: bookdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
