@@ -38,7 +38,7 @@ public class BookControllerTest {
 
         Book book = new Book("java", "Herbert");
 
-        Mockito.when(bookService.allBoooks()).thenReturn(List.of(book));
+        Mockito.when(bookService.allBooks()).thenReturn(List.of(book));
 
         mockMvc.perform(MockMvcRequestBuilders.get("/books"))
                 .andExpect(MockMvcResultMatchers.status().isOk())

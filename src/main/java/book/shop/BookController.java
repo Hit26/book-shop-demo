@@ -20,6 +20,6 @@ public class BookController {
 
     @GetMapping("/books")
     public ResponseEntity<Books> books() {
-        return ResponseEntity.ok( new Books(bookService.allBoooks()));
+        return ResponseEntity.ok( new Books(bookService.allBooks()));
     }
 }
