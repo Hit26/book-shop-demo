@@ -12,7 +12,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import java.util.List;
 
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 
 @WebMvcTest(BookController.class)
@@ -30,7 +30,7 @@ public class BookControllerTest {
 
         mockMvc.perform(MockMvcRequestBuilders.get("/books"))
                 .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(content().json("[]"));
+                .andExpect(jsonPath("$.books").isEmpty());
     }
 
     @Test
@@ -42,7 +42,7 @@ public class BookControllerTest {
 
         mockMvc.perform(MockMvcRequestBuilders.get("/books"))
                 .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(jsonPath("$[0].name").value("java"))
-                .andExpect(jsonPath("$[0].author").value("Herbert"));
+                .andExpect(jsonPath("$.books[0].name").value("java"))
+                .andExpect(jsonPath("$.books[0].author").value("Herbert"));
     }
 }

@@ -1,5 +1,6 @@
 package book.shop;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,7 +19,7 @@ public class BookController {
     }
 
     @GetMapping("/books")
-    public List<Book> books() {
-        return this.bookService.allBoooks();
+    public ResponseEntity<Books> books() {
+        return ResponseEntity.ok( new Books(bookService.allBoooks()));
     }
 }

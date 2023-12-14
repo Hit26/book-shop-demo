@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="book.shop.BookControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-14T08:57:06" hostname="0822LTPB0076167.local" time="0.331">
+<testsuite name="book.shop.BookControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-14T09:14:26" hostname="0822LTPB0076167.local" time="0.284">
   <properties/>
-  <testcase name="shouldGetNoBooksBackIfTheyAreNotAvailable()" classname="book.shop.BookControllerTest" time="0.232"/>
-  <testcase name="shouldGetBookBackIfAvailable()" classname="book.shop.BookControllerTest" time="0.089"/>
-  <system-out><![CDATA[14:27:02.314 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [book.shop.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-14:27:02.593 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration book.shop.BookShopApplication for test class book.shop.BookControllerTest
+  <testcase name="shouldGetNoBooksBackIfTheyAreNotAvailable()" classname="book.shop.BookControllerTest" time="0.244"/>
+  <testcase name="shouldGetBookBackIfAvailable()" classname="book.shop.BookControllerTest" time="0.032"/>
+  <system-out><![CDATA[14:44:21.600 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [book.shop.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:44:21.909 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration book.shop.BookShopApplication for test class book.shop.BookControllerTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,12 +14,12 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.5)
 
-2023-12-14T14:27:03.326+05:30  INFO 38921 --- [    Test worker] book.shop.BookControllerTest             : Starting BookControllerTest using Java 17.0.9 with PID 38921 (started by hitesh.jaware in /Users/hitesh.jaware/book-shop-demo)
-2023-12-14T14:27:03.332+05:30  INFO 38921 --- [    Test worker] book.shop.BookControllerTest             : No active profile set, falling back to 1 default profile: "default"
-2023-12-14T14:27:06.621+05:30  INFO 38921 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2023-12-14T14:27:06.625+05:30  INFO 38921 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2023-12-14T14:27:06.650+05:30  INFO 38921 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
-2023-12-14T14:27:06.708+05:30  INFO 38921 --- [    Test worker] book.shop.BookControllerTest             : Started BookControllerTest in 3.957 seconds (process running for 6.005)
+2023-12-14T14:44:22.647+05:30  INFO 39745 --- [    Test worker] book.shop.BookControllerTest             : Starting BookControllerTest using Java 17.0.9 with PID 39745 (started by hitesh.jaware in /Users/hitesh.jaware/book-shop-demo)
+2023-12-14T14:44:22.653+05:30  INFO 39745 --- [    Test worker] book.shop.BookControllerTest             : No active profile set, falling back to 1 default profile: "default"
+2023-12-14T14:44:25.988+05:30  INFO 39745 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-12-14T14:44:25.990+05:30  INFO 39745 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-12-14T14:44:26.012+05:30  INFO 39745 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2023-12-14T14:44:26.074+05:30  INFO 39745 --- [    Test worker] book.shop.BookControllerTest             : Started BookControllerTest in 4.014 seconds (process running for 5.934)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
