@@ -39,4 +39,9 @@ jobs:
     steps:
       - run: echo "build"
 
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "scan"
+
     
